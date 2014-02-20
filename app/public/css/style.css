@@ -1,5 +1,8 @@
 #sigma-container {
-max-width: 1600px;
-height: 800px;
-margin: auto;
+	margin: auto;
+	margin-top: 16px;
+	margin-bottom:6px;
+	max-width: 1600px;
+	height: 900px;
+	border: solid 3px; 
 }
