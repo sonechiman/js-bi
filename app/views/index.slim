@@ -1,9 +1,14 @@
-h1 = "講座の共起ネットワーク"
+h2 = "講座の共起ネットワーク"
 
 ul.nav.nav-pills
-  == render :slim, :'_dropdown', locals: { name: "Property", options: @options, id: "property" }
-  - { "gender" => "Gender", "std-score" => "Standard score", "page" => "Page"}.each do |id, name|
+  == render :slim, :'_dropdown', locals: { name: "属性", options: @options, id: "property" }
+  - { "gender" => "性別", "std-score" => "偏差値", "page" => "セッション"}.each do |id, name|
     == render :slim, :'_dropdown', locals: { name: name, id: id, options: []}
+
+#buttons
+  button#toggle-layout Start layout
+  button#restart-camera Restart camera
+
 #sigma-container
 
 #created-by Created by Y.Soneoka

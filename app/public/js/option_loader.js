@@ -39,12 +39,31 @@ $(function() {
     var path = getNextOptions().join('/');
     sigma.parsers.gexf(
      '/data/' + path, {
-      container: 'sigma-container'
+      container: 'sigma-container',
+      settings: {
+        defaultLabelColor: '#fff',
+        sideMargin: 1
+        }
     },
     function(s) {
-      // This function will be executed when the
-      // graph is displayed, with "s" the related
-      // sigma instance.
+
+      document.getElementById('toggle-layout').addEventListener('click', function() {
+        if ((s.forceatlas2 || {}).isRunning) {
+          s.stopForceAtlas2();
+          document.getElementById('toggle-layout').innerHTML = 'Start layout';
+        } else {
+          s.startForceAtlas2();
+          document.getElementById('toggle-layout').innerHTML = 'Stop layout';
+        }
+      });
+      document.getElementById('restart-camera').addEventListener('click', function() {
+        s.cameras[0].goTo({
+          x: 0,
+          y: 0,
+          angle: 0,
+          ratio: 1
+        });
+      });
     });
   };
 
