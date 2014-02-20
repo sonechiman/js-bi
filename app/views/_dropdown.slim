@@ -1,0 +1,9 @@
+li.dropdown
+  button.btn.dropdown-toggle type="button" data-toggle="dropdown"
+    span.name = name
+    span.caret
+  ul.dropdown-menu id="#{id}-dropdown"
+    - for option in options
+      li role="presentation"
+        a role="menuitem" tabindex="-1" href="#"
+          = option

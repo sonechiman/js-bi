@@ -1,0 +1,7 @@
+h1 = "SigmaJS Displayer"
+
+ul.nav.nav-pills
+  == render :slim, :'_dropdown', locals: { name: "Property", options: @options, id: "property" }
+  - { "gender" => "Gender", "std-score" => "Standard score", "page" => "Page"}.each do |id, name|
+    == render :slim, :'_dropdown', locals: { name: name, id: id, options: []}
+#sigma-container

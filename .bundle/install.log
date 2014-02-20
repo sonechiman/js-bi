@@ -1,0 +1,16 @@
+# Logfile created on 2014-02-20 17:03:04 +0900 by logger.rb/41954
+I, [2014-02-20T17:03:04.803196 #26279]  INFO -- : 0:  backports (3.6.0) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/backports-3.6.0.gemspec
+I, [2014-02-20T17:03:13.970478 #26279]  INFO -- : 0:  kgio (2.9.2) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/kgio-2.9.2.gemspec
+I, [2014-02-20T17:03:14.746365 #26279]  INFO -- : 0:  multi_json (1.8.4) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/multi_json-1.8.4.gemspec
+I, [2014-02-20T17:03:15.614011 #26279]  INFO -- : 0:  rack (1.5.2) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-02-20T17:03:16.317464 #26279]  INFO -- : 0:  rack-protection (1.5.2) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.2.gemspec
+I, [2014-02-20T17:03:16.320854 #26279]  INFO -- : 0:  rack-test (0.6.2) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.2.gemspec
+I, [2014-02-20T17:03:19.247003 #26279]  INFO -- : 0:  raindrops (0.13.0) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/raindrops-0.13.0.gemspec
+I, [2014-02-20T17:03:19.960365 #26279]  INFO -- : 0:  settingslogic (2.0.9) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/settingslogic-2.0.9.gemspec
+I, [2014-02-20T17:03:19.963773 #26279]  INFO -- : 0:  tilt (1.4.1) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2014-02-20T17:03:20.874022 #26279]  INFO -- : 0:  sinatra (1.4.4) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.4.gemspec
+I, [2014-02-20T17:03:21.694305 #26279]  INFO -- : 0:  sinatra-contrib (1.4.2) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/sinatra-contrib-1.4.2.gemspec
+I, [2014-02-20T17:03:22.532341 #26279]  INFO -- : 0:  temple (0.6.7) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/temple-0.6.7.gemspec
+I, [2014-02-20T17:03:23.337974 #26279]  INFO -- : 0:  slim (2.0.2) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/slim-2.0.2.gemspec
+I, [2014-02-20T17:03:27.390392 #26279]  INFO -- : 0:  unicorn (4.8.2) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/unicorn-4.8.2.gemspec
+I, [2014-02-20T17:03:27.403904 #26279]  INFO -- : 0:  bundler (1.5.1) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/bundler-1.5.1.gemspec

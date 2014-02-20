@@ -1,0 +1,19 @@
+{
+  "name": "js-network",
+  "version": "0.1.0",
+  "authors": [
+    "Yuya Soneoka <ej.a9p96@gmail.com>"
+  ],
+  "description": "Display SigmaJS data",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1"
+  }
+}
