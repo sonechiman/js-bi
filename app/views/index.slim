@@ -3,7 +3,6 @@ h2 = "講座の共起ネットワーク"
 #buttons
   button.btn.btn-primary#toggle-layout Start layout
   button.btn.btn-primary#restart-camera Restart camera
-  button.btn.btn-primary#refresh-graph Refresh
 
 ul.nav.nav-pills
   == render :slim, :'_dropdown', locals: { name: "類似度", options: @options, id: "proximity" }
