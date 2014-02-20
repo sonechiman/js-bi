@@ -3,11 +3,18 @@ h2 = "講座の共起ネットワーク"
 #buttons
   button.btn.btn-primary#toggle-layout Start layout
   button.btn.btn-primary#restart-camera Restart camera
+  button.btn.btn-primary#refresh-graph Refresh
 
 ul.nav.nav-pills
-  == render :slim, :'_dropdown', locals: { name: "属性", options: @options, id: "property" }
-  - { "gender" => "性別", "std-score" => "偏差値", "page" => "セッション"}.each do |id, name|
+  == render :slim, :'_dropdown', locals: { name: "類似度", options: @options, id: "proximity" }
+  - {"property"=>"属性","gender" => "性別", "std-score" => "偏差値", "page" => "セッション"}.each do |id, name|
     == render :slim, :'_dropdown', locals: { name: name, id: id, options: []}
+
+
+/ ul.nav.nav-pills
+/   == render :slim, :'_dropdown', locals: { name: "属性", options: @options, id: "property" }
+/   - { "gender" => "性別", "std-score" => "偏差値", "page" => "セッション"}.each do |id, name|
+/     == render :slim, :'_dropdown', locals: { name: name, id: id, options: []}
 
 #sigma-container
 
