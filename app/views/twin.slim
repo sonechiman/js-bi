@@ -4,14 +4,19 @@ h2 = "共起ネットワーク"
   button.btn.btn-primary#toggle-layout Start layout
   button.btn.btn-primary#restart-camera Restart camera
 
+p 左
+ul.nav.nav-pills
+  == render :slim, :'_dropdown', locals: { name: "ネットワークタイプ", options: @options, id: "type" }
+  - {"proximity"=>"類似度","property"=>"属性","gender" => "性別", "std-score" => "偏差値", "page" => "セッション"}.each do |id, name|
+    == render :slim, :'_dropdown', locals: { name: name, id: id, options: []}
+p 右
 ul.nav.nav-pills
   == render :slim, :'_dropdown', locals: { name: "ネットワークタイプ", options: @options, id: "type" }
   - {"proximity"=>"類似度","property"=>"属性","gender" => "性別", "std-score" => "偏差値", "page" => "セッション"}.each do |id, name|
     == render :slim, :'_dropdown', locals: { name: name, id: id, options: []}
 
+#sigma-container-left
 
-
-
-#sigma-container
+#sigma-container-right
 
 #created-by Created by Y.Soneoka

@@ -28,3 +28,24 @@
 	padding-top: 8px;
 	padding-bottom: 4px;
 }
+
+#sigma-container-left{
+	margin: auto;
+	margin-top: 16px;
+	margin-bottom:6px;
+	width: 560px;
+	height: 800px;
+	border: solid 3px; 
+	background: #000;
+	float: left;
+}
+#sigma-container-right{
+	margin: auto;
+	margin-top: 16px;
+	margin-bottom:6px;
+	width: 560px;
+	height: 800px;
+	border: solid 3px; 
+	background: #000;
+	float: right;
+}

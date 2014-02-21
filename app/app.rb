@@ -13,4 +13,9 @@ class SigmaDisplayApp < Sinatra::Base
   get '/options' do
     json DataFinder.get_dir_content(*params['vals'])
   end
+  get '/twin' do
+    @options = DataFinder.get_dir_content()
+    slim :twin
+  end
+
 end
