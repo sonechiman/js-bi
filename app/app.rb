@@ -18,4 +18,7 @@ class SigmaDisplayApp < Sinatra::Base
     slim :twin
   end
 
+  require 'rack-google-analytics'
+  use Rack::GoogleAnalytics, :tracker => 'UA-41845795-3'
+
 end
